@@ -1,0 +1,383 @@
+#image-container {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./img-4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+  
+}
+.nav-container {
+    background-color: black;
+    opacity: 70%;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: relative;
+   
+}
+
+.header-div {
+    width: 20%;
+    height: 150px;
+    position: relative;
+   
+}
+
+.navbar {
+    width: 80%;
+    height: 150px;
+}
+.header{
+    background-color: black;
+    width: 70%;
+    height: 80px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.nav-header {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nav-item1-div {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.nav-menu {
+    width: 40%;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+#home {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    box-sizing: border-box;
+    
+}
+
+#our-property {
+    text-decoration: none;
+    margin-left: 44px;
+    font-size: 17px;
+    color: white;
+}
+
+.nav-menu2 {
+    width: 60%;
+    height: 50px;
+    padding-top: 40px;
+}
+
+#login {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    margin-left: 400px;
+
+}
+
+#register {
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+
+.nav-item2-div {
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+.nav-item3-div {
+    width: 100%;
+    height: 68px;
+    display: flex;
+}
+
+.navbar-div {
+    width: 40%;
+    height: 58px;
+    padding-top: 10px;
+}
+
+#HOME-menu {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+span {
+margin-left: 5px;
+}
+
+#LOGIN-menu {
+     text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+    color: white;
+}
+
+
+.navbar-div2 {
+    width: 60%;
+    height: 58px;
+    padding-top: 10px;
+}
+
+.menu-property {
+    background-color: blue;
+    width: 30%;
+    height: 25px;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 350px;
+}
+#post-a-property {
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+    font-size: 16px; 
+}
+
+.main-div {
+    background-color: black;
+    opacity: 60%;
+    width: 75%;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 150px;
+    display: flex;
+}
+
+.paragraph-div {
+    background-color: black;
+    opacity: 100%;
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.register {
+    width: 40%;
+    height: 25px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding-top: 10px;
+    background-color: slategrey;
+}
+
+#register-text {
+    text-decoration: none;
+    margin-left: 60px;
+    color: white;
+    font-size: 16px; 
+}
+
+h4 {
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+.form-div {
+    background-color: white;
+    width: 45%;
+    height: 400px;
+    margin-top: -50px;
+}
+
+h3 {
+    color: gray;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+#code {
+    width: 17%;
+    height: 30px;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: slategrey;
+    color: white;
+}
+
+#number {
+    width: 55%;
+    height: 25px;
+    background-color: lightslategray;
+    margin-left: -4px;
+}
+
+#password {
+    width: 73%;
+    height: 25px;
+    background-color: lightslategray;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#forget-password {
+    color: green;
+    margin-left: 258px;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 40%;
+    height: 25px;
+    margin-left: 200px;
+    background-color: grey;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#click-login {
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 70px;
+    color: white;
+}
+
+#login-with {
+    color:gray;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.register-form-div {
+    background-color: black;
+    opacity: 60%;
+    width: 75%;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 150px;
+    display: flex;
+    
+}
+
+.register-div {
+    background-color: black;
+    opacity: 100%;
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.main-form-div {
+    background-color: white;
+    width: 45%;
+    height: 400px;
+    margin-top: -50px;
+    margin-left: 35px;
+}
+
+#code-lib {
+    margin-top: 20px;
+    width: 20%;
+    height: 30px;
+    margin-left: 50px;
+}
+
+#phone-number {
+    width: 53%;
+    height: 25px;
+    margin-left: -8px;
+}
+
+#name-input {
+    margin-left: 50px;
+    width: 72%;
+    height: 25px;
+}
+
+#conditions {
+    color: gray;
+    font-size: 15px;
+    margin-left: 70px;
+}
+
+#checkbox {
+    width: 5%;
+    height: 20px;
+}
+
+#property {
+    text-decoration: none;
+    margin-left: 44px;
+    font-size: 17px;
+    color: green;
+}
+
+.search-bar {
+    width: 100%;
+    height: 400px;
+    display: grid;   
+    grid-template-columns: 25% 70%;
+    grid-column-gap: 2%;
+    margin-top: 30px; 
+}
+
+.property-menu-bar {
+    margin-left: 70px; 
+    background-color: lightslategray; 
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.property-list {
+    background-color: pink; 
+    height: 80px;
+}
+
+#search {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+
+#search-for-profile {
+    width: 75%;
+    height: 25px;
+    margin-left: 30px;
+    font-size: 13px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#category {
+    font-size: 15px;
+    color: white;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+
+#most-recent {
+    width: 75%;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 10px;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+
+#price-for-house {
+    font-size: 15px;
+}
