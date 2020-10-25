@@ -1,0 +1,1004 @@
+body {
+    background-color: whitesmoke;
+}
+#image-container {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./img-4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+  
+}
+.nav-container {
+    background-color: black;
+    opacity: 70%;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: relative;
+   
+}
+
+.header-div {
+    width: 20%;
+    height: 150px;
+    position: relative;
+   
+}
+
+.navbar {
+    width: 80%;
+    height: 150px;
+}
+.header{
+    background-color: black;
+    width: 70%;
+    height: 80px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.nav-header {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nav-item1-div {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.nav-menu {
+    width: 40%;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+#home {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    box-sizing: border-box;
+    
+}
+
+#our-property {
+    text-decoration: none;
+    margin-left: 44px;
+    font-size: 17px;
+    color: white;
+}
+
+.nav-menu2 {
+    width: 60%;
+    height: 50px;
+    padding-top: 40px;
+}
+
+#login {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    margin-left: 400px;
+
+}
+
+#register {
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+
+.nav-item2-div {
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+.nav-item3-div {
+    width: 100%;
+    height: 68px;
+    display: flex;
+}
+
+.navbar-div {
+    width: 40%;
+    height: 58px;
+    padding-top: 10px;
+}
+
+#HOME-menu {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+span {
+margin-left: 5px;
+}
+
+#LOGIN-menu {
+     text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+    color: white;
+}
+
+
+.navbar-div2 {
+    width: 60%;
+    height: 58px;
+    padding-top: 10px;
+}
+
+.menu-property {
+    background-color: blue;
+    width: 30%;
+    height: 25px;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 350px;
+}
+#post-a-property {
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+    font-size: 16px; 
+}
+
+.main-div {
+    background-color: black;
+    opacity: 60%;
+    width: 75%;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 150px;
+    display: flex;
+}
+
+.paragraph-div {
+    background-color: black;
+    opacity: 100%;
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.register {
+    width: 40%;
+    height: 25px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding-top: 10px;
+    background-color: slategrey;
+}
+
+#register-text {
+    text-decoration: none;
+    margin-left: 60px;
+    color: white;
+    font-size: 16px; 
+}
+
+h4 {
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+.form-div {
+    background-color: white;
+    width: 45%;
+    height: 400px;
+    margin-top: -50px;
+}
+
+h3 {
+    color: gray;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+#code {
+    width: 17%;
+    height: 30px;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: slategrey;
+    color: white;
+}
+
+#number {
+    width: 55%;
+    height: 25px;
+    background-color: lightslategray;
+    margin-left: -4px;
+}
+
+#password {
+    width: 73%;
+    height: 25px;
+    background-color: lightslategray;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#forget-password {
+    color: green;
+    margin-left: 258px;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 40%;
+    height: 25px;
+    margin-left: 200px;
+    background-color: grey;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#click-login {
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 70px;
+    color: white;
+}
+
+#login-with {
+    color:gray;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.register-form-div {
+    background-color: black;
+    opacity: 60%;
+    width: 75%;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 150px;
+    display: flex;
+    
+}
+
+.register-div {
+    background-color: black;
+    opacity: 100%;
+    width: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.main-form-div {
+    background-color: white;
+    width: 45%;
+    height: 400px;
+    margin-top: -50px;
+    margin-left: 35px;
+}
+
+#code-lib {
+    margin-top: 20px;
+    width: 20%;
+    height: 30px;
+    margin-left: 50px;
+}
+
+#phone-number {
+    width: 53%;
+    height: 25px;
+    margin-left: -8px;
+}
+
+#name-input {
+    margin-left: 50px;
+    width: 72%;
+    height: 25px;
+}
+
+#conditions {
+    color: gray;
+    font-size: 15px;
+    margin-left: 70px;
+}
+
+#checkbox {
+    width: 5%;
+    height: 20px;
+}
+
+#property {
+    text-decoration: none;
+    margin-left: 44px;
+    font-size: 17px;
+    color: green;
+}
+
+.property-container {
+    display: grid;
+    grid-template-columns: 25% 73%;
+    column-gap: 1%;
+    background-color: whitesmoke;
+    height: 990px;
+    margin-top: 20px;
+}
+
+aside {
+    background-color: gray;
+    height: 480px;
+    margin-left: 80px;
+}
+
+#search {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+#search-for-profile {
+    width: 75%;
+    height: 25px;
+    margin-left: 30px;
+    font-size: 13px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#category {
+    font-size: 15px;
+    color: white;
+    margin-left: 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+#user-input-for-property {
+    width: 63%;
+    height: 20px;
+    margin-left: 30px;
+}
+
+#most-recent {
+    width: 10%;
+    height: 26px;
+    margin-left: -5px; 
+}
+
+#price-for-house {
+    font-size: 15px;
+}
+
+.click-footer {
+    width: 75%;
+    height: 27px;
+    background-color: blue;
+    margin-left: 30px;
+}
+
+#done {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    padding-top: 5px;
+    
+}
+
+.property-main-content {
+    background-color: whitesmoke;
+    height: 950px;
+}
+
+#head {
+    background-color: lightslategrey;
+    height: 60px;
+}
+
+.head-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.left-head-content {
+    height: 30px;
+    padding: 20px;
+}
+
+#all-property {
+    color: green;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#property-for-rent {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+#property-on-sale {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;;
+    margin-left: 30px;
+}
+
+.right-head-content {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.viewing-property-div {
+    height: 100px;
+}
+
+#view-property {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 22px;
+    margin-left: 200px;
+}
+
+.sort-by-div {
+    display: grid;
+    grid-template-columns: 39% 60%;
+    column-gap: 1%;
+}
+
+.sort-by-text {
+    height: 50px;
+}
+
+#sort-by {
+    font-size: 16px;
+    margin-top: 23px;
+    margin-left: 97px;
+    color: white;
+}
+
+.user-for-input {
+    height: 40px;
+}
+
+#search-for-user-property {
+    width: 60%;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#click-recent-property {
+    margin-left: -5px;
+    width: 10%;
+    height: 26px;
+}
+
+.house-container {
+    display: grid;
+    grid-template-columns: 74% 25%;
+    column-gap: 1%;
+}
+
+.left-content {
+    background-color: whitesmoke;
+    height: 850px;
+    margin-top: 20px;
+}
+
+.houses-content {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 1%;
+}
+
+.image-profile-content {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../week-three-assignment-joseph20t/th.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.house-frist-item-div {
+    background-color: white;
+    height: 270px;
+}
+
+.amount {
+    background-color: lightgreen;
+    width: 50%;
+    height: 30px;
+    margin-left: 107px;
+    margin-top: -40px;
+}
+
+#displaying-amount-of-bedroom {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: -0.3px;
+    color: black;
+}
+
+#name-of-property-owner {
+    font-size: 10px;
+    margin-left: 12px;
+    color: black;
+}
+
+#location-of-the-bedroom {
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: -15px;
+    color: black;
+}
+
+#amount-for-property {
+    font-size: 15px;
+    margin-left: -1px;
+    margin-top: 10px;
+    padding: 8px;
+    color: black;
+    
+}
+
+.house-second-item-div {
+    background-color: white; 
+    height: 270px;
+}
+
+.house-third-item-div {
+    background-color: white;
+    height: 270px;
+}
+
+.another-content-of-houses {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 1.1%;
+}
+
+.house-fourth-item-div {
+    background-color: white;
+    height: 270px;
+    margin-top: 15px;
+}
+
+.house-fifth-item-div {
+    background-color: white;
+    height: 270px;
+    margin-top: 15px;
+}
+
+.house-sixth-item-div {
+    background-color: white;
+    height: 270px;
+    margin-top: 15px;
+}
+
+.displaying-more-content-of-houses {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 1%;
+}
+
+.house-seven-item-div {
+    background-color: white;
+    height: 270px;
+    margin-top: 15px;
+}
+
+.house-eight-item-div {
+    background-color: white;
+    height: 270px;
+    margin-top: 15px;
+}
+
+.house-nine-item-div {
+    background-color: white;
+    height: 270px;
+    margin-top: 15px;
+}
+
+.right-content-advertisement {
+    background-color: white;
+    height: 650px;
+    margin-top: 20px;
+}
+
+#advertisements-text {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.click-more-div {
+    background-color: blue;
+    width: 25%;
+    height: 40px;
+    margin-left: 240px;
+    border-radius: 2px;
+}
+
+#load-more-text {
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+.footer-area {
+    background-color: lightslategray;
+    display: grid;
+    grid-template-columns: 30% 33% 27%;
+    column-gap: 5%; 
+    width: 100%;
+    height: 325px;
+}
+
+.contact-us-div {
+    background-color: lightslategray;
+    height: 300px;
+}
+
+.quick-link-div {
+    background-color: lightslategray;
+    height: 300px;
+}
+
+.our-recent-postings-div {
+    background-color: lightslategray;
+    height: 300px;
+}
+
+#contact-us {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+#place-to-find-us {
+    margin-left: 130px;
+    font-size: 17px;
+}
+
+#links1 {
+    text-decoration: none;
+    text-align: center;
+    margin-left: 120px;
+    color:  white;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+#links2{
+    text-decoration: none;
+    margin-left: 100px;
+    color: white;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+#links3 {
+    text-decoration: none;
+    margin-left: 60px;
+    color: white;
+    font-size: 17px;   
+}
+
+#apartment-to-find-us {
+    font-size: 15px;
+}
+
+#apartment-location {
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+
+.white-line-div {
+    background-color: white;
+    width: 333%;
+    height: 2px;
+    margin-top: -50px;
+}
+
+.copyright-text p {
+    background-color: lightslategray;
+    height: 30px;
+    width: 100%;
+    margin-left: -365px;
+    font-size: 15px;
+    margin-top: -45px;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo h2 {
+    background-color: lightslategray;
+    color: white;
+    margin-top: -45px;
+    height: 36px;
+    padding: 12px;
+    padding-top: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.right-and-left-side-container {
+    display: grid;
+    grid-template-columns: 65% 32%;
+    column-gap: 3%;
+}
+
+.left-side-content {
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+.contain-image-and-text {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    
+}
+
+.image-content {
+    background-color: navy;
+    height: 100px;
+}
+
+.text-content {
+    background-color: white;
+    height: 100px;
+}
+
+.aside-image {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../week-three-assignment-joseph20t/th.jpeg");
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.both-amount-text-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.location-text-div {
+    background-color: white;
+    height: 100px;
+}
+
+#bedroom-content {
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+#location-of-bedroom {
+    color: black;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+#owner-of-property {
+    color: black;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+
+.amount-content-div {
+    background-color: white;
+    height: 100px;
+    color: black;
+}
+
+.per-month-div {
+    background-color: green;
+    color: white;
+    width: 80%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#amount-per-month {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.property-category {
+    display: grid;
+    grid-template-columns: 25% 48% 25%;
+    column-gap: 1%;
+    background-color: whitesmoke;
+    height: 990px;
+    margin-top: 20px;
+}
+
+#aside {
+    background-color: gray;
+    height: 480px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.view-property-div {
+    background-color: whitesmoke;
+    height: 1200px;
+    margin-top: 20px;
+}
+
+.view-profile-content {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../week-three-assignment-joseph20t/th.jpeg");
+    background-size: cover;
+    height: 400px;
+    width: 100%
+}
+
+.both-container-amount {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 15px;
+}
+
+.amount-content-div1 {
+    background-color: whitesmoke;
+    height: 120px;
+    color: black;
+}
+
+.location-texts-div {
+    background-color: whitesmoke;
+    height: 120px;
+}
+
+.per-month-div1 {
+    background-color: green;
+    color: white;
+    width: 80%;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#amount-per-month1 {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+#bedrooms-content {
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 10px;   
+}
+
+#location-of-bedrooms {
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+#owner-of-propertys {
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+
+.container-call-email {
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+.contain-call-email {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    column-gap: 3%;
+}
+
+.call-div {
+    background-color: gray;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.email-div {
+    background-color: gray;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+#calling-peter {
+    font-size: 15px;
+    text-align: center;
+}
+
+#sending-peter-mail {
+    font-size: 15px;
+    text-align: center
+}
+
+#property-description {
+    font-size: 17px;
+    color:  black;
+    margin-left: 12px;
+}
+
+#description-text {
+    margin-left: 12px;
+    color: black;
+}
+
+.available-amenties-div {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 200px;
+}
+
+.value-in-the-house-div {
+    background-color: whitesmoke;
+    height: 200px;
+}
+
+#household-material {
+    font-size: 15px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.place-to-study-div {
+    background-color: whitesmoke;
+    height: 200px;
+}
+
+.other-facility {
+    background-color: whitesmoke;
+    height: 200px;
+}
+
+.view-profile-map {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../week-three-assignment-joseph20t/map");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.footer-area2 {
+    background-color: lightslategray;
+    display: grid;
+    grid-template-columns: 30% 33% 27%;
+    column-gap: 5%; 
+    width: 100%;
+    height: 325px;
+    margin-top: 500px;
+}
