@@ -512,7 +512,7 @@ aside {
 }
 
 .image-profile-content {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../week-three-assignment-joseph20t/th.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./th.jpeg");
     background-size: cover;
     height: 200px;
     width: 100%;
@@ -772,7 +772,7 @@ aside {
 }
 
 .aside-image {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../week-three-assignment-joseph20t/th.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./th.jpeg");
     background-size: cover;
     height: 100px;
     width: 100%;
@@ -853,7 +853,7 @@ aside {
 }
 
 .view-profile-content {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../week-three-assignment-joseph20t/th.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./th.jpeg");
     background-size: cover;
     height: 400px;
     width: 100%
@@ -987,7 +987,7 @@ aside {
 }
 
 .view-profile-map {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../week-three-assignment-joseph20t/map");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./map");
     background-size: cover;
     height: 400px;
     width: 100%;
