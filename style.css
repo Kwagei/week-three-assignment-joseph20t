@@ -1,39 +1,48 @@
-body {
+.image-container {
+    background-color: whitesmoke;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./Image/img-4.jpg");
+    background-image: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin: 0px;
+}
+
+.header-container {
+    height: 700px;
+    margin: 0px;
     background-color: whitesmoke;
 }
-#image-container {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./img-4.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 800px;
-  
+
+header {
+    position: relative;
+    
 }
+
 .nav-container {
     background-color: black;
     opacity: 70%;
+    z-index: 0;
     width: 100%;
     height: 150px;
-    display: flex;
     position: relative;
-   
 }
 
 .header-div {
-    width: 20%;
+    position: absolute;
+    z-index: 10;
+    width: 15%;
     height: 150px;
-    position: relative;
-   
+
 }
 
 .navbar {
-    width: 80%;
+    width: 100%;
     height: 150px;
 }
 .header{
     background-color: black;
     width: 70%;
     height: 80px;
-    position: absolute;
     margin-left: 60px;
     margin-top: 30px;
 }
@@ -46,143 +55,136 @@ body {
 }
 
 .nav-item1-div {
-    width: 100%;
-    height: 80px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 60%;
 }
 
 .nav-menu {
-    width: 40%;
-    height: 50px;
-    box-sizing: border-box;
     padding-top: 40px;
+    height: 40px;
 }
 
 #home {
     text-decoration: none;
-    font-size: 17px;
-    color: white;
-    box-sizing: border-box;
-    
+    font-size: 18px;
+    color: white;  
+    margin-left: 250px;
 }
 
 #our-property {
     text-decoration: none;
-    margin-left: 44px;
-    font-size: 17px;
+    margin-left: 30px; 
+    font-size: 18px;
     color: white;
 }
 
 .nav-menu2 {
-    width: 60%;
-    height: 50px;
     padding-top: 40px;
+    height: 40px;
 }
 
 #login {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
-    margin-left: 400px;
+    margin-left: 750px;
 
 }
 
 #register {
     text-decoration: none;
     margin-left: 5px;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
 }
 
 
 .nav-item2-div {
-    background-color: white;
-    width: 100%;
+    background-color: white;  
+    width: 80%;
     height: 2px;
+    margin-left: 250px;
 }
 
 .nav-item3-div {
-    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
     height: 68px;
-    display: flex;
 }
 
 .navbar-div {
-    width: 40%;
-    height: 58px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 #HOME-menu {
     text-decoration: none;
-    font-size: 15px;
-    color: white;
+    font-size: 16px;
+    color: lightslategray;
+    margin-left: 250px;
 }
 
 span {
-margin-left: 5px;
+    margin-left: 12px;
+    color: lightslategray;
 }
 
 #LOGIN-menu {
      text-decoration: none;
-    margin-left: 20px;
-    font-size: 17px;
-    color: white;
+    margin-left: 2px;
+    font-size: 18px;
+    color: snow;
 }
 
 
 .navbar-div2 {
-    width: 60%;
-    height: 58px;
     padding-top: 10px;
 }
 
 .menu-property {
     background-color: blue;
-    width: 30%;
-    height: 25px;
+    width: 20%;
+    height: 35px;
     border-radius: 5px;
-    padding-top: 10px;
-    margin-left: 350px;
+    margin-left: 690px;
 }
 #post-a-property {
     text-decoration: none;
-    margin-left: 25px;
     color: white;
-    font-size: 16px; 
+    font-size: 17px; 
 }
 
 .main-div {
     background-color: black;
     opacity: 60%;
-    width: 75%;
+    width: 55%;
     height: 300px;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 150px;
     display: flex;
 }
 
 .paragraph-div {
     background-color: black;
-    opacity: 100%;
     width: 50%;
     height: 200px;
     margin-top: 50px;
+    border-color: white;
 }
 
 .register {
     width: 40%;
-    height: 25px;
+    height: 35px;
     margin-left: 50px;
     border-radius: 5px;
-    padding-top: 10px;
-    background-color: slategrey;
+    border-color: white;
+    background-color: black;
 }
 
 #register-text {
     text-decoration: none;
-    margin-left: 60px;
-    color: white;
+    text-align: center;
+    color: snow;
     font-size: 16px; 
 }
 
@@ -204,6 +206,7 @@ p {
     width: 45%;
     height: 400px;
     margin-top: -50px;
+    box-sizing: border-box;
 }
 
 h3 {
@@ -239,23 +242,22 @@ h3 {
 
 #forget-password {
     color: green;
-    margin-left: 258px;
+    margin-left: 225px;
     margin-top: 20px;
 }
 
 .footer {
     width: 40%;
-    height: 25px;
-    margin-left: 200px;
-    background-color: grey;
+    height: 30px;
+    margin-left: 190px;
+    background-color: slategray;
     border-radius: 5px;
-    padding-top: 5px;
 }
 
 #click-login {
     text-decoration: none;
     font-size: 17px;
-    margin-left: 70px;
+    text-align: center;
     color: white;
 }
 
@@ -268,9 +270,10 @@ h3 {
 .register-form-div {
     background-color: black;
     opacity: 60%;
-    width: 75%;
+    width: 60%;
     height: 300px;
-    margin-left: 80px;
+    margin-left:  auto;
+    margin-right: auto;
     margin-top: 150px;
     display: flex;
     
@@ -278,9 +281,8 @@ h3 {
 
 .register-div {
     background-color: black;
-    opacity: 100%;
-    width: 50%;
-    height: 200px;
+    width: 45%;
+    height: 250px;
     margin-top: 50px;
 }
 
@@ -314,12 +316,13 @@ h3 {
 #conditions {
     color: gray;
     font-size: 15px;
-    margin-left: 70px;
+    margin-left: 120px;
 }
 
 #checkbox {
     width: 5%;
     height: 20px;
+    margin-top: 10px;
 }
 
 #property {
@@ -339,8 +342,8 @@ h3 {
 }
 
 aside {
-    background-color: gray;
-    height: 480px;
+    background-color: slategray;
+    height: 500px;
     margin-left: 80px;
 }
 
@@ -379,6 +382,8 @@ aside {
     width: 10%;
     height: 26px;
     margin-left: -5px; 
+    background-color: slategrey;
+    color: white;
 }
 
 #price-for-house {
@@ -387,16 +392,16 @@ aside {
 
 .click-footer {
     width: 75%;
-    height: 27px;
-    background-color: blue;
+    height: 40px;
+    background-color: darkgray;
     margin-left: 30px;
+    border-radius: 5px;
 }
 
 #done {
     text-align: center;
     color: white;
-    font-size: 17px;
-    padding-top: 5px;
+    font-size: 15px;
     
 }
 
@@ -489,6 +494,8 @@ aside {
 
 #click-recent-property {
     margin-left: -5px;
+    background-color: slategray;
+    color: white;
     width: 10%;
     height: 26px;
 }
@@ -512,22 +519,111 @@ aside {
 }
 
 .image-profile-content {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./th.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/th.jpeg");
     background-size: cover;
     height: 200px;
     width: 100%;
 }
 
+.image-profile-content2 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h7.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+
+.image-profile-content3 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h8.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.image-profile-content4 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h9.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.image-profile-content5 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h10.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.image-profile-content6 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h1.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.image-profile-content7 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h2.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.image-profile-content8 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h3.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.image-profile-content9 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h4.jpeg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
 .house-frist-item-div {
     background-color: white;
-    height: 270px;
+    height: 290px;
+    
+}
+
+.room-number {
+    width: 25%;
+    height: 30px;
+    background-color: white;
+}
+
+#num2 {
+    font-size: 18px;
+   margin-top: -1px;
+}
+
+.room-number2 {
+    width: 25%;
+    height: 30px;
+    margin-left: -6px;
+    background-color: white;
+}
+
+.room-number3 {
+    width: 26.2%;
+    margin-left: -6px;
+    background-color: white;
+    height: 30px;
+}
+
+.room-number4 {
+    width: 26%;
+    margin-left: -6px;
+    background-color: white;
+    height: 30px;
 }
 
 .amount {
     background-color: lightgreen;
     width: 50%;
     height: 30px;
-    margin-left: 107px;
+    margin-left: auto;
     margin-top: -40px;
 }
 
@@ -535,24 +631,24 @@ aside {
     font-size: 17px;
     margin-left: 10px;
     margin-top: -0.3px;
-    color: black;
+    color: lightslategrey;
 }
 
 #name-of-property-owner {
     font-size: 10px;
     margin-left: 12px;
-    color: black;
+    color: lightslategrey;
 }
 
 #location-of-the-bedroom {
     font-size: 12px;
     margin-left: 25px;
     margin-top: -15px;
-    color: black;
+    color: lightslategrey;
 }
 
 #amount-for-property {
-    font-size: 15px;
+    font-size: 16px;
     margin-left: -1px;
     margin-top: 10px;
     padding: 8px;
@@ -562,12 +658,12 @@ aside {
 
 .house-second-item-div {
     background-color: white; 
-    height: 270px;
+    height: 290px;
 }
 
 .house-third-item-div {
     background-color: white;
-    height: 270px;
+    height: 290px;
 }
 
 .another-content-of-houses {
@@ -578,19 +674,19 @@ aside {
 
 .house-fourth-item-div {
     background-color: white;
-    height: 270px;
+    height: 290px;
     margin-top: 15px;
 }
 
 .house-fifth-item-div {
     background-color: white;
-    height: 270px;
+    height: 290px;
     margin-top: 15px;
 }
 
 .house-sixth-item-div {
     background-color: white;
-    height: 270px;
+    height: 290px;
     margin-top: 15px;
 }
 
@@ -602,19 +698,19 @@ aside {
 
 .house-seven-item-div {
     background-color: white;
-    height: 270px;
+    height: 290px;
     margin-top: 15px;
 }
 
 .house-eight-item-div {
     background-color: white;
-    height: 270px;
+    height: 290px;
     margin-top: 15px;
 }
 
 .house-nine-item-div {
     background-color: white;
-    height: 270px;
+    height: 290px;
     margin-top: 15px;
 }
 
@@ -632,17 +728,20 @@ aside {
 }
 
 .click-more-div {
-    background-color: blue;
+    background-color: lightslategrey;
     width: 25%;
     height: 40px;
-    margin-left: 240px;
-    border-radius: 2px;
+    margin-left: 260px;
+    border-radius: 10px;
+    margin-top: 80px;
+  
 }
 
 #load-more-text {
     font-size: 17px;
     color: white;
     text-align: center;
+    margin-top: 6px;
 }
 
 .footer-area {
@@ -652,6 +751,17 @@ aside {
     column-gap: 5%; 
     width: 100%;
     height: 325px;
+    margin-top: 100px;
+}
+
+.footer-area1 {
+    background-color: lightslategray;
+    display: grid;
+    grid-template-columns: 30% 33% 27%;
+    column-gap: 5%; 
+    width: 100%;
+    height: 325px;
+    margin-top: 280px;
 }
 
 .contact-us-div {
@@ -762,25 +872,101 @@ aside {
 }
 
 .image-content {
-    background-color: navy;
-    height: 100px;
+    background-color:white;
+    height: 120px;
 }
 
 .text-content {
     background-color: white;
-    height: 100px;
+    height: 130px;
 }
 
 .aside-image {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./th.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h1.jpeg");
     background-size: cover;
-    height: 100px;
+    height: 130px;
     width: 100%;
+}
+
+.aside-image1 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h2.jpeg");
+    background-size: cover;
+    height: 130px;
+    width: 100%;
+}
+
+.aside-image2 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h3.jpeg");
+    background-size: cover;
+    height: 130px;
+    width: 100%;
+}
+
+.aside-image3 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h4.jpeg");
+    background-size: cover;
+    height: 130px;
+    width: 100%;
+}
+
+.aside-image4 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h7.jpeg");
+    background-size: cover;
+    height: 130px;
+    width: 100%;
+}
+
+.aside-image5 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h8.jpeg");
+    background-size: cover;
+    height: 130px;
+    width: 100%;
+}
+
+.aside-image6 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h9.jpeg");
+    background-size: cover;
+    height: 130px;
+    width: 100%;
+}
+
+.room-number1 {
+    width: 22%;
+    height: 30px;
+    background-color: white;
+    /* margin-top: px; */
+    margin-left: 36px;
+}
+
+#num3 {
+    font-size: 19px;
+    margin-top: 3px;
+}
+
+.room-number5 {
+    width: 22%;
+    height: 30px;
+    background-color: white;
+    margin-left: -10px; 
+}
+
+.room-number6 {
+    width: 22%;
+    height: 30px;
+    background-color: white;
+    margin-left: -10px;
+}
+
+.room-number7 {
+    width: 22%;
+    height: 30px;
+    background-color: white;
+    margin-left: -10px;
 }
 
 .both-amount-text-container {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 64% 36%;
 }
 
 .location-text-div {
@@ -789,23 +975,23 @@ aside {
 }
 
 #bedroom-content {
-    color: black;
-    font-size: 16px;
-    margin-left: 10px;
+    color: slategrey;
+    font-size: 19px;
+    margin-left: 30px;
     padding-top: 10px;
 }
 
 #location-of-bedroom {
-    color: black;
-    font-size: 10px;
-    margin-left: 10px;
+    color: slategrey;
+    font-size: 13px;
+    margin-left: 40px;
     margin-top: -10px;
 }
 
 #owner-of-property {
-    color: black;
-    font-size: 10px;
-    margin-left: 10px;
+    color: slategrey;
+    font-size: 14px;
+    margin-left: 30px;
     margin-top: -8px;
 }
 
@@ -816,16 +1002,16 @@ aside {
 }
 
 .per-month-div {
-    background-color: green;
+    background-color: seagreen;
     color: white;
-    width: 80%;
-    height: 30px;
-    margin-left: 20px;
+    width: 55%;
+    height: 33px;
+    margin-left: 40px;
     margin-top: 30px;
 }
 
 #amount-per-month {
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     padding-top: 8px;
 }
@@ -841,7 +1027,7 @@ aside {
 
 #aside {
     background-color: gray;
-    height: 480px;
+    height: 495px;
     margin-left: 80px;
     margin-top: 20px;
 }
@@ -853,11 +1039,114 @@ aside {
 }
 
 .view-profile-content {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./th.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h9.jpeg");
     background-size: cover;
     height: 400px;
-    width: 100%
+    width: 100%;
 }
+
+.mult-img-container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    z-index: 0; 
+    margin-top: -100px;
+    opacity: 70%;
+}
+
+.mult-img1 {
+    width: 15%;
+    height: 85px;
+    margin-left: 12px;
+    margin-top: 10px;
+    
+}
+
+.mult-image1 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h7.jpeg");
+    background-size: cover;
+    height: 85px;
+    width: 100%;
+    z-index: 30;
+} 
+
+.mult-img2 {
+    width: 15%;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.mult-image2 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h1.jpeg");
+    background-size: cover;
+    height: 85px;
+    width: 100%;
+    z-index: 50;
+}
+
+.mult-img3 {
+    width: 15%;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 10px;
+} 
+
+.mult-image3 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h2.jpeg");
+    background-size: cover;
+    height: 85px;
+    width: 100%;
+    z-index: 30;
+} 
+
+.mult-img4 {
+    width: 15%;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 10px;
+} 
+
+.mult-image4 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h3.jpeg");
+    background-size: cover;
+    height: 85px;
+    width: 100%;
+    z-index: 30;
+} 
+
+.mult-img5 {
+    width: 15%;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.mult-image5 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h4.jpeg");
+    background-size: cover;
+    height: 85px;
+    width: 100%;
+    z-index: 30;
+}
+
+.mult-img6 {
+    width: 15%;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.mult-image6 {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/h9.jpeg");
+    background-size: cover;
+    height: 85px;
+    width: 100%;
+    z-index: 30;
+}
+
 
 .both-container-amount {
     display: grid;
@@ -877,11 +1166,11 @@ aside {
 }
 
 .per-month-div1 {
-    background-color: green;
+    background-color: seagreen;
     color: white;
     width: 80%;
     height: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 30px;
 }
 
@@ -892,24 +1181,61 @@ aside {
 }
 
 #bedrooms-content {
-    color: black;
-    font-size: 20px;
+    color: slategray;
+    font-size: 30px;
     margin-left: 10px;
     padding-top: 10px;   
 }
 
 #location-of-bedrooms {
-    color: black;
-    font-size: 15px;
+    color: slategray;
+    font-size: 20px;
     margin-left: 10px;
-    margin-top: -10px;
+    margin-top: -17px;
+}
+
+.main-house-bnt {
+    width: 14%;
+    height: 30px;
+    margin-left: 20px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+#bnt-number {
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.main-house-bnt1 {
+    width: 14%;
+    height: 30px;
+    margin-left: -10px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.main-house-bnt2 {
+    width: 14%;
+    height: 30px;
+    margin-left: -10px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.main-house-bnt3 {
+    width: 14%;
+    height: 30px;
+    margin-left: -10px;
+    border: none;
+    background-color: whitesmoke;
 }
 
 #owner-of-propertys {
     color: black;
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 10px;
-    margin-top: -8px;
+    margin-top: 10px;
 }
 
 .container-call-email {
@@ -921,10 +1247,12 @@ aside {
     display: grid;
     grid-template-columns: 35% 35%;
     column-gap: 3%;
+    margin-top: 80px;
 }
 
 .call-div {
     background-color: gray;
+    color: white;
     height: 40px;
     margin-left: 15px;
     border-radius: 5px;
@@ -932,6 +1260,7 @@ aside {
 
 .email-div {
     background-color: gray;
+    color: white;
     height: 40px;
     margin-left: 15px;
     border-radius: 5px;
@@ -940,22 +1269,45 @@ aside {
 #calling-peter {
     font-size: 15px;
     text-align: center;
+    margin-top: 8px;
 }
 
 #sending-peter-mail {
     font-size: 15px;
-    text-align: center
+    text-align: center;
+    margin-top: 8px;
 }
 
 #property-description {
     font-size: 17px;
-    color:  black;
+    color:  slategray;
     margin-left: 12px;
+}
+
+.image-icon-div {
+    display: flex;
+    background-color: whitesmoke; 
+    width: 35%;
+    height: 45px;
+}
+
+.image-icon1 {
+    background-color: whitesmoke;
+    height: 70px;
+    width: 30%;
+}
+
+.fb-image {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/images\ \(1\).png");
+    background-size: cover;
+    height: 45px;
+    width: 50%;
+    background-color: whitesmoke;
 }
 
 #description-text {
     margin-left: 12px;
-    color: black;
+    color: slategray;
 }
 
 .available-amenties-div {
@@ -971,7 +1323,7 @@ aside {
 
 #household-material {
     font-size: 15px;
-    color: black;
+    color: slategray;
     margin-left: 10px;
     margin-top: 5px;
 }
@@ -987,7 +1339,7 @@ aside {
 }
 
 .view-profile-map {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./map");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./Image/map");
     background-size: cover;
     height: 400px;
     width: 100%;
@@ -1000,5 +1352,5 @@ aside {
     column-gap: 5%; 
     width: 100%;
     height: 325px;
-    margin-top: 500px;
+    margin-top: 647px;
 }

@@ -6,16 +6,15 @@
     <title>Responsive work project</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <div id="image-container">
+<body class="image-container">
+   <header>
+    <div class="header-div">
+        <div class="header">
+           <h1 class="nav-header">SILKROAD</h1>
+       </div> 
+ 
+   </div>
         <div class="nav-container">
-            <div class="header-div">
-                 <div class="header">
-                    <h1 class="nav-header">SILKROAD</h1>
-                </div> 
-          
-            </div>
-
             <nav class="navbar">
                 <div class="nav-item1-div">
                     <div class="nav-menu">
@@ -25,7 +24,7 @@
 
                     <div class="nav-menu2">
                         <a id="login" href="#">Login <span>|</span></a>
-                        <a id="register" href="#">Register</a>
+                        <a id="register" href="./register.html">Register</a>
                     </div>
                 </div>
 
@@ -38,14 +37,15 @@
                     </div>
 
                     <div class="navbar-div2">
-                        <div class="menu-property">
+                        <button class="menu-property">
                             <a id="post-a-property" href="#">Post a Properties</a>
-                        </div>
-                        
+                        </button>
+                       
                     </div>
                 </div> 
             </nav>
     </div>
+   </header>
 
     <div class="main-div">
         <div class="paragraph-div">
@@ -56,14 +56,10 @@
                 </p>
             </header>
 
-            <section>
-                <div class="register">
-                    <header>
+               
+                    <button class="register">
                         <a id="register-text" href="./register.html">Register</a>
-                    </header>
-                    
-                </div>
-            </section>
+                    </button>
         </div>
         
         <div class="form-div">
@@ -75,19 +71,18 @@
                 <select id="code" name="Country code">
                     <option value="+ 231" selected>+ 231</option>
                 </select>
-
+                
                 <input id="number" type="text" name="quantity" value="Phone number" />
 
                 <input id="password" type="password" name="password" />
           
 
-            <section>
                 <p id="forget-password">Forget password?</p>
-            </section>
+        
             
-            <div class="footer">
+            <button class="footer">
                 <a id="click-login" href="#" >Login</a>
-            </div>
+            </button>
 
             <footer>
                 <p id="login-with">Login with</p>
@@ -96,6 +91,5 @@
         </div>
     </div>
 
-</div> 
 </body>
 </html>
