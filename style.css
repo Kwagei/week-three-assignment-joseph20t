@@ -1,9 +1,9 @@
 .image-container {
     background-color: whitesmoke;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./Image/img-4.jpg");
-    background-image: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 850px;
     margin: 0px;
 }
 
@@ -11,11 +11,6 @@
     height: 700px;
     margin: 0px;
     background-color: whitesmoke;
-}
-
-header {
-    position: relative;
-    
 }
 
 .nav-container {
@@ -30,45 +25,48 @@ header {
 .header-div {
     position: absolute;
     z-index: 10;
-    width: 15%;
+    width: 24%;
     height: 150px;
-
+    margin-left: -1%;
 }
+ 
+
 
 .navbar {
     width: 100%;
     height: 150px;
 }
 .header{
-    background-color: black;
     width: 70%;
     height: 80px;
-    margin-left: 60px;
+    margin-left: 20%;
     margin-top: 30px;
+    background-color: black;
 }
 
 .nav-header {
     color:white;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10%;
 }
 
 .nav-item1-div {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 60% 40%;
 }
 
 .nav-menu {
     padding-top: 40px;
     height: 40px;
+    margin-left: 38%;
 }
 
 #home {
     text-decoration: none;
     font-size: 18px;
     color: white;  
-    margin-left: 250px;
+    margin-left: 2%;
 }
 
 #our-property {
@@ -81,19 +79,20 @@ header {
 .nav-menu2 {
     padding-top: 40px;
     height: 40px;
+
 }
 
 #login {
     text-decoration: none;
     font-size: 18px;
     color: white;
-    margin-left: 750px;
+    margin-left: 50%;
 
 }
 
 #register {
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 1%;
     font-size: 18px;
     color: white;
 }
@@ -101,36 +100,37 @@ header {
 
 .nav-item2-div {
     background-color: white;  
-    width: 80%;
     height: 2px;
-    margin-left: 250px;
+    width: 66%;
+    margin-left: 24%;
 }
 
 .nav-item3-div {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 60% 40%;
     height: 68px;
 }
 
 .navbar-div {
     padding-top: 15px;
+    margin-left: 38%;
 }
 
 #HOME-menu {
     text-decoration: none;
     font-size: 16px;
     color: lightslategray;
-    margin-left: 250px;
+    margin-left: 2%;
 }
 
 span {
-    margin-left: 12px;
+    margin-left: 1%;
     color: lightslategray;
 }
 
 #LOGIN-menu {
      text-decoration: none;
-    margin-left: 2px;
+    margin-left: 1%;
     font-size: 18px;
     color: snow;
 }
@@ -142,15 +142,15 @@ span {
 
 .menu-property {
     background-color: blue;
-    width: 20%;
     height: 35px;
     border-radius: 5px;
-    margin-left: 690px;
+    margin-left: 40%;
+    width: 35%;
 }
 #post-a-property {
     text-decoration: none;
     color: white;
-    font-size: 17px; 
+    font-size: 15px; 
 }
 
 .main-div {
@@ -160,22 +160,22 @@ span {
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
     display: flex;
+     margin-top: 10%;
 }
 
 .paragraph-div {
     background-color: black;
     width: 50%;
     height: 200px;
-    margin-top: 50px;
     border-color: white;
+    margin-top: 5%;
 }
 
 .register {
     width: 40%;
     height: 35px;
-    margin-left: 50px;
+    margin-left: 7%;
     border-radius: 5px;
     border-color: white;
     background-color: black;
@@ -192,35 +192,35 @@ h4 {
     color: white;
     margin-top: 50px;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 7%;
 }
 
 p {
     color: white;
-    margin-left: 50px;
-    font-size: 17px;
+    font-size: 15px;
+    margin-left: 7%;
 }
 
 .form-div {
     background-color: white;
     width: 45%;
     height: 400px;
-    margin-top: -50px;
+    margin-top: -5%;
     box-sizing: border-box;
 }
 
 h3 {
     color: gray;
-    margin-top: 60px;
-    margin-left: 50px;
+    margin-top: 12%;
+    margin-left: 7%;
     font-size: 25px;
 }
 
 #code {
     width: 17%;
     height: 30px;
-    margin-left: 50px;
-    padding: 5px;
+    margin-left: 7%;
+    padding: 1%;
     background-color: slategrey;
     color: white;
 }
@@ -231,25 +231,32 @@ h3 {
     background-color: lightslategray;
     margin-left: -4px;
 }
-
-#password {
-    width: 73%;
+#password2 {
+    margin-left: 12%;
+    margin-top: 5%;
+    width: 72%;
     height: 25px;
     background-color: lightslategray;
-    margin-left: 50px;
-    margin-top: 20px;
+}
+
+#password {
+    margin-left: 7%;
+    margin-top: 5%;
+    width: 72%;
+    height: 25px;
+    background-color: lightslategray;
 }
 
 #forget-password {
     color: green;
-    margin-left: 225px;
-    margin-top: 20px;
+    margin-left: 51%;
+    margin-top: 5%;
 }
 
 .footer {
     width: 40%;
     height: 30px;
-    margin-left: 190px;
+    margin-left: 45%;
     background-color: slategray;
     border-radius: 5px;
 }
@@ -263,7 +270,7 @@ h3 {
 
 #login-with {
     color:gray;
-    padding-top: 15px;
+    padding-top: 15%;
     font-size: 15px;
 }
 
@@ -331,6 +338,231 @@ h3 {
     font-size: 17px;
     color: green;
 }
+
+@media screen and (max-width: 768px) {
+    .register-form-div {
+        background-color: black;
+        opacity: 60%;
+        width: 95%;
+        height: 300px;
+        margin-left:  auto;
+        margin-right: auto;
+        margin-top: 190px;
+        display: flex;
+        
+    }
+
+    
+    .main-form-div {
+        background-color: white;
+        width: 45%;
+        height: 400px;
+        margin-top: -50px;
+        margin-left: 35px;
+    }
+
+    #code-lib {
+        margin-top: 30px;
+        width: 20%;
+        height: 30px;
+        margin-left: 7%;
+    }
+    
+    #phone-number {
+        width: 65%;
+        height: 25px;
+        margin-left: -8px;
+    }
+    
+    #name-input {
+        margin-left: 50px;
+        width: 83%;
+        height: 25px;
+        margin-left: 7%;
+    }
+
+    #password2 {
+        margin-left: 7%;
+        margin-top: 7%;
+        width: 83%;
+        height: 25px;
+        background-color: lightslategray;
+    }
+    
+    #conditions {
+        color: gray;
+        font-size: 15px;
+        margin-left: 13%;
+    }
+
+    #checkbox {
+        width: 5%;
+        height: 20px;
+        margin-top: 10px;
+    }
+    
+    #property {
+        text-decoration: none;
+        margin-left: 44px;
+        font-size: 17px;
+        color: green;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .register-form-div {
+        background-color: black;
+        opacity: 60%;
+        width: 90%;
+        height: 300px;
+        margin-left:  auto;
+        margin-right: auto;
+        margin-top: 30%;
+        display: flex;
+        
+    }
+    
+    .main-form-div {
+        background-color: white;
+        width: 45%;
+        height: 400px;
+        margin-top: -50px;
+        margin-left: 35px;
+    }
+
+    #code-lib {
+        margin-top: 30px;
+        width: 20%;
+        height: 30px;
+        margin-left: 7%;
+    }
+    
+    #phone-number {
+        width: 65%;
+        height: 25px;
+        margin-left: -8px;
+    }
+    
+    #name-input {
+        margin-left: 50px;
+        width: 83%;
+        height: 25px;
+        margin-left: 7%;
+    }
+
+    #password2 {
+        margin-left: 7%;
+        margin-top: 7%;
+        width: 83%;
+        height: 25px;
+        background-color: lightslategray;
+    }
+    
+    #conditions {
+        color: gray;
+        font-size: 15px;
+        margin-left: 13%;
+    }
+
+    #checkbox {
+        width: 5%;
+        height: 20px;
+        margin-top: 10px;
+    }
+    
+    #property {
+        text-decoration: none;
+        margin-left: 44px;
+        font-size: 17px;
+        color: green;
+    }
+}
+
+#having-account {
+    color: lightslategray;
+    display: none;
+}
+
+@media screen and (max-width: 540px) {
+
+    .register-form-div {
+        background-color: transparent;
+        width: 90%;
+    }
+    
+    .register-div {
+       display: none;
+    }
+    
+    .main-form-div {
+        background-color: snow;
+        width: 100%;
+        height: 450px;
+        margin-left: 3%;
+    }
+    
+    #code-lib {
+        margin-top: 30px;
+        width: 20%;
+        height: 30px;
+        margin-left: 7%;
+    }
+    
+    #phone-number {
+        width: 65%;
+        height: 25px;
+        margin-left: -8px;
+    }
+    
+    #name-input {
+        margin-left: 50px;
+        width: 83%;
+        height: 25px;
+        margin-left: 7%;
+    }
+
+    #password2 {
+        margin-left: 7%;
+        margin-top: 7%;
+        width: 83%;
+        height: 25px;
+        background-color: lightslategray;
+    }
+    
+    #conditions {
+        color: gray;
+        font-size: 15px;
+        margin-left: 13%;
+    }
+
+    #having-account {
+        color: lightslategray;
+        display: block;
+        text-align: center;
+    }
+
+    #log-back {
+        color: lime;
+        margin-left: 1%;
+    }
+    
+    #checkbox {
+        width: 5%;
+        height: 20px;
+        margin-top: 10px;
+    }
+    
+    #property {
+        text-decoration: none;
+        margin-left: 44px;
+        font-size: 17px;
+        color: green;
+    }
+
+}
+
 
 .property-container {
     display: grid;
@@ -1320,7 +1552,12 @@ aside {
     background-color: whitesmoke;
     height: 200px;
 }
-
+#not-having-account {
+    color:gray;
+    font-size: 15px;
+    margin-left: 20%;
+    display: none;
+}
 #household-material {
     font-size: 15px;
     color: slategray;
@@ -1353,4 +1590,473 @@ aside {
     width: 100%;
     height: 325px;
     margin-top: 647px;
+}
+
+@media screen and (max-width: 550px) {
+
+     .navbar-div {
+        padding-top: 15px;
+        margin-left: 8%;
+    }
+
+     #login {
+        display: none;
+    }
+    
+    #register {
+        display: none;
+    } 
+
+    .nav-item2-div {
+        background-color: white;  
+        height: 2px;
+        width: 100%;
+        margin-left: 0.4%;
+    }
+   
+
+    .nav-menu {
+        display:none;
+    }
+
+    .header-div {
+        width: 35%;
+        height: 80px;
+    }
+    
+    .header{
+        background-color: black;
+        width: 14%;
+        height: 14px;
+        margin-left: -1%; 
+    }
+    
+    .nav-header {
+        color:white;
+        font-size: 15px;
+        margin-left: 220%;
+    }
+
+    .menu-property {
+        background-color: blue;
+        height: 35px;
+        border-radius: 5px;
+    }
+
+    #post-a-property {
+        text-decoration: none;
+        color: white;
+        font-size: 11px; 
+    }
+
+    .paragraph-div {
+        background-color: black;
+        width: 50%;
+        height: 220px;
+        border-color: white;
+        margin-top: 5%;
+    }
+
+    
+    .form-div {
+        background-color: white;
+        width: 45%;
+        height: 350px;
+        margin-top: -5%;
+        box-sizing: border-box;
+    }
+
+    .form-div {
+        background-color: white;
+        width: 45%;
+        height: 350px;
+        margin-top: -5%;
+        box-sizing: border-box;
+    }
+
+    #forget-password {
+        color: lawngreen;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .image-container {
+        background-color: whitesmoke;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./Image/img-4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1350px;
+        margin: 0px;
+    }
+
+    #login {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        margin-left: 43%;
+    }    
+
+    .main-div {
+        background-color: black;
+        opacity: 60%;
+        width: 90%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: 30%;
+    }
+    
+    h4 {
+        color: white;
+        margin-top: 40px;
+        font-size: 27px;
+        margin-left: 7%;
+    }
+    
+    p {
+        color: white;
+        font-size: 18px;
+        margin-left: 7%;
+    }
+
+    #number {
+        width: 65%;
+        height: 25px;
+        background-color: lightslategray;
+        margin-left: -4px;
+    }
+    
+    #password {
+        margin-left: 7%;
+        margin-top: 5%;
+        width: 82%;
+        height: 25px;
+        background-color: lightslategray;
+    }
+
+    #forget-password {
+        color: green;
+        margin-left: 60%;
+        margin-top: 5%;
+    }
+
+    .footer {
+        width: 45%;
+        height: 30px;
+        margin-left: 46%;
+        background-color: slategray;
+        border-radius: 5px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        background-color: whitesmoke;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./Image/img-4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1020px;
+        margin: 0px;
+    }
+    .menu-property {
+        background-color: blue;
+        height: 35px;
+        border-radius: 5px;
+        margin-left: 25%;
+        width: 50%; 
+    } 
+
+    #login {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        margin-left: 32%;
+    
+    }
+
+    #HOME-menu {
+        text-decoration: none;
+        font-size: 16px;
+        color: lightslategray;
+        margin-left: 3%;
+    }
+
+    span {
+        margin-left: 5%;
+        color: lightslategray;
+    }   
+
+    #LOGIN-menu {
+        text-decoration: none;
+        margin-left: 2%;
+        font-size: 18px;
+        color: white;
+    }
+
+    .main-div {
+        background-color: black;
+        opacity: 60%;
+        width: 90%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: 30%;
+    }
+    
+    #register-text {
+        text-decoration: none;
+        text-align: center;
+        color: snow;
+        font-size: 16px; 
+    }
+    
+    h4 {
+        color: white;
+        margin-top: 50px;
+        font-size: 20px;
+        margin-left: 7%;
+    }
+    
+    p {
+        color: white;
+        font-size: 14px;
+        margin-left: 7%;
+    }
+
+    #number {
+        width: 65%;
+        height: 25px;
+        background-color: lightslategray;
+        margin-left: -4px;
+    }
+    
+    #password {
+        margin-left: 7%;
+        margin-top: 5%;
+        width: 82%;
+        height: 25px;
+        background-color: lightslategray;
+    }
+
+    #forget-password {
+        color: green;
+        margin-left: 60%;
+        margin-top: 5%;
+    }
+
+    .footer {
+        width: 45%;
+        height: 30px;
+        margin-left: 46%;
+        background-color: slategray;
+        border-radius: 5px;
+    }
+
+}
+
+
+ @media screen and (max-width: 475px) {
+
+    .navbar-div {
+        padding-top: 15px;
+        margin-left: 8%;
+    }
+
+    #HOME-menu {
+        text-decoration: none;
+        font-size: 14px;
+        color: lightslategray;
+    }
+        #login {
+           display: none;
+       }
+       
+       #register {
+           display: none;
+       } 
+     
+    span {
+        margin-left: 10%;
+        color: lightslategray;
+    }
+    
+    #LOGIN-menu {
+         text-decoration: none;
+        margin-left: 10%;
+        font-size: 15px;
+        color: white;
+    }
+    .navbar-div2 {
+        padding-top: 10px;
+    }
+    
+    .menu-property {
+        background-color: blue;
+        height: 35px;
+        border-radius: 5px;
+        margin-left: 5%;
+        width: 90%; 
+    } 
+
+    #post-a-property {
+        text-decoration: none;
+        color: white;
+        font-size: 10px; 
+    }
+
+    .footer-area2 {
+        background-color: lightslategray;
+        display: grid;
+        grid-template-columns: 30% 33% 27%;
+        column-gap: 5%; 
+        width: 100%;
+        height: 325px;
+        margin-top: 647px;
+}
+
+} 
+
+
+@media screen and (max-width: 475px) {
+
+    .navbar-div {
+        padding-top: 15px;
+        margin-left: 8%;
+    }
+
+     #login {
+        display: none;
+    }
+    
+    #register {
+        display: none;
+    } 
+
+    .nav-item2-div {
+        background-color: white;  
+        height: 2px;
+        width: 100%;
+        margin-left: 0.4%;
+    }
+   
+
+    .nav-menu {
+        display:none;
+    }
+
+    .header-div {
+        width: 35%;
+        height: 80px;
+    }
+    
+    .header{
+        background-color: black;
+        width: 14%;
+        height: 14px;
+        margin-left: -1%; 
+    }
+    
+    .nav-header {
+        color:white;
+        font-size: 15px;
+        margin-left: 220%;
+    }
+} 
+
+#not-having-account {
+    color:gray;
+    font-size: 15px;
+    margin-left: 20%;
+    display: none;
+}
+
+@media screen and (max-width: 475px) {
+
+    #forget-password {
+        color: #7cfc00;
+        margin-left: 59%;
+        margin-top: 5%;
+    }
+
+    .main-div {
+        background-color: transparent;
+        width: 90%;
+    }
+
+    .paragraph-div {
+        display: none;
+    }
+
+    .form-div {
+        background-color: white;
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .footer {
+        width: 85%;
+        height: 30px;
+        margin-left: 7%;
+        background-color: slategray;
+        border-radius: 5px;
+    }
+
+    #code {
+        width: 30%;
+        height: 30px;
+        margin-left: 7%;
+        padding: 1%;
+        background-color: slategrey;
+        color: white;
+    }
+    
+    #number {
+        width: 53%;
+        height: 25px;
+        background-color: lightslategray;
+        margin-left: -4px;
+    }
+    
+    #password {
+        margin-left: 7%;
+        margin-top: 5%;
+        width: 83%;
+        height: 25px;
+        background-color: lightslategray;
+    }
+
+    #login-with {
+        color:gray;
+        padding-top: 5%;
+        font-size: 17px;
+        margin-left: 30%;
+    }
+
+    #not-having-account {
+        color:gray;
+        font-size: 15px;
+        margin-left: 20%;
+        display: block;
+    }
+
+    #color {
+        color: lawngreen;
+        margin-left: 3%;
+       
+    }
+}
+
+#color {
+    color: lawngreen;
 }
